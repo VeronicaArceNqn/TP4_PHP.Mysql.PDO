@@ -11,7 +11,7 @@ include_once 'estructura/header.php';
         <hr />
         <div class="col-md-4">
         <label for="NroDni" class="form-label">NroDni</label>
-<input type="search" class="form-control" id="NroDni" name="NroDni" placeholder="Escriba NroDni" min="1000000" max="99999999" required>
+<input type="number" class="form-control" id="NroDni" name="NroDni" placeholder="Escriba NroDni" min="1000000" max="99999999" required>
 <div class="invalid-feedback">
                         Ingrese Nro Dni (8 n&uacute;meros)
                     </div>
@@ -21,7 +21,7 @@ include_once 'estructura/header.php';
         </div>
         <div class="col-md-4">
         <label for="Patente" class="form-label">Patente</label>
-<input type="search" class="form-control" id="Patente" name="Patente" placeholder="Escriba Patente" minlength="6" required>
+<input type="text" class="form-control" id="Patente" name="Patente" placeholder="Escriba Patente" minlength="6" required>
                     <div class="invalid-feedback">
                         Ingrese Patente (min. 6 caracteres)
                     </div>
